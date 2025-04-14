@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "node": "18" 
+    "node": "18"
   },
   "scripts": {
     "dev": "tsx watch src/server.ts",
@@ -27,9 +27,10 @@
   "devDependencies": {
     "@types/node": "^22.13.1",
     "@types/supertest": "^6.0.2",
+    "sqlite3": "^5.1.7",
     "supertest": "^7.0.0",
+    "tsup": "^8.4.0",
     "tsx": "^4.19.2",
-    "typescript": "^5.7.3",
-    "sqlite3": "^5.1.7"
+    "typescript": "^5.7.3"
   }
 }
